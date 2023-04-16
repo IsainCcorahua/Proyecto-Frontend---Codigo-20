@@ -116,8 +116,9 @@ a {
     margin: 5px 0;
 }
 
-.info .rating img{
-    margin: 12px 0;
+.info .rating img {
+    height: 12px;
+    /* margin: 12px 0; */
 }
 
 .info .title {
