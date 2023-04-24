@@ -244,7 +244,14 @@ text-align: center;
     justify-content: center;
 }
 
-
+.sb-nosotros {
+    height: 150px;
+    background-image: url(../html/img/img-nosotros/banner-nosotros.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 55px;
+    font-size: x-large;
+  }
 /*------------------------------- fin Header-------------------------*/
 /*------------------------------- Carrusel---------------------------*/
 .d-block{
