@@ -295,14 +295,42 @@ text-align: center;
     justify-content: space-around;
     gap: 20px;
 }
-.nosotros-serv{
+
+.sb-nosotros {
+    height: 150px;
+    background-image: url(../html/img/img-nosotros/banner-nosotros.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 55px;
+    font-size: x-large;
+  }
+  .contain-p {
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+  .contain-img {
+    filter: drop-shadow(16px 16px 10px black);
+  }
+  
+  .nosotros-serv {
     text-align: center;
     margin-top: 50px;
-    background:#3792ad;
+    background: #3792ad;
     height: 80px;
     padding: 29px;
     color: #f9f9f9;
-}
+  }
+  .nosotros-content {
+    text-align: center;
+  }
+  .nosotros-content img {
+    margin-top: 20px;
+  }
+  .sb-nosotros h1{
+    color: #fff;
+        
+  }
+  
 /*------------------------------- Fin footer-------------------------------- */
 
 
