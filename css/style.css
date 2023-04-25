@@ -245,7 +245,7 @@ text-align: center;
 
 .sb-nosotros {
     height: 150px;
-    background-image: url(../html/img/img-nosotros/banner-nosotros.jpg);
+    background-image: url(../html/img/img-nosotros/nosotros.png);
     background-repeat: no-repeat;
     text-align: center;
     padding: 55px;
@@ -292,14 +292,6 @@ text-align: center;
   gap: 20px;
 }
 
-.sb-nosotros {
-    height: 150px;
-    background-image: url(../html/img/img-nosotros/banner-nosotros.jpg);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 55px;
-    font-size: x-large;
-  }
   .contain-p {
     padding: 20px 30px;
     font-size: 20px;
