@@ -11,11 +11,7 @@
   --width-desktop: 1440px;
 }
 
-body {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--width-desktop);
-}
+
 header {
   width: 100%;
   height: 21vh;
@@ -61,7 +57,6 @@ nav {
   font-weight: 600;
   text-decoration: none;
   list-style: none;
-  
 }
 /* .nav-menu .contact {
   background-color: #3a6d7c;
@@ -72,6 +67,11 @@ nav {
   color: rgb (248, 8, 8);
   transition: 0.3s;
 }
+.main-nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 .sb-nosotros {
   /* height: 500px; */
   background-image: url(../html/img/img-nosotros/nosotros.png);
@@ -80,12 +80,26 @@ nav {
   padding: 55px;
   font-size: x-large;
 }
-.contain-p {
+.nosotros-content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  justify-items: center;
+}
+.nosotros-title {
+  height: 60px;
+  background-color: #3792ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style:groove
+}
+.nosotros-img {
+  margin-top: 20px;
+  filter: drop-shadow(16px 16px 10px black);
+}
+.nosotros-p {
   padding: 20px 30px;
   font-size: 20px;
-}
-.contain-img {
-  filter: drop-shadow(16px 16px 10px black);
 }
 .footer {
   padding: 50px;
@@ -106,22 +120,6 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   gap: 20px;
-}
-.nosotros-serv {
-  text-align: center;
-  margin-top: 50px;
-  background: #3792ad;
-  height: 80px;
-  padding: 29px;
-  color: #f9f9f9;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-}
-.nosotros-content {
-  text-align: center;
-}
-.nosotros-content img {
-  margin-top: 20px;
 }
 
 #check {
@@ -146,7 +144,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.contain_item{
+.contain_item {
   background-color: aqua;
   width: 500px;
 }
